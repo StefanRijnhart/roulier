@@ -3,6 +3,7 @@
 from .carriers.laposte.laposte import Laposte
 from .carriers.dummy.dummy import Dummy
 from .carriers.geodis.geodis import Geodis
+from .carriers.kuehne_nagel.kuehne_nagel import KuehneNagel
 
 
 def _carriers():
@@ -14,6 +15,7 @@ def _carriers():
         "laposte": Laposte,
         "dummy": Dummy,
         "geodis": Geodis,
+        "kuehne": KuehneNagel,
     }
 
 
