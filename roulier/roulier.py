@@ -5,6 +5,7 @@ from .carriers.dummy.dummy import Dummy
 from .carriers.geodis.geodis import Geodis
 from .carriers.dpd.dpd import Dpd
 from .carriers.trs.trs import Trs
+from .carriers.dynalogic.dynalogic import Dynalogic
 
 
 def _carriers():
@@ -18,6 +19,7 @@ def _carriers():
         "geodis": Geodis,
         "dpd": Dpd,
         "trs": Trs,
+        "dynalogic": Dynalogic,
     }
 
 

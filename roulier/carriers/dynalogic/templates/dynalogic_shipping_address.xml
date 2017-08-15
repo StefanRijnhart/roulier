@@ -1,0 +1,12 @@
+<Shipping_Address>
+	<Company>{{ address.company }}</Company>
+	<Name1>{{ address.name }}</Name1>
+	<Street>{{ address.street1 }}</Street>
+	<PostalCode>{{ address.zip }}</PostcalCode>
+	<City>{{ address.city }}</City>
+	<Country>{{ address.country }}</Country>
+	<Language>{{ address.language }}</Language>
+	<Phone1>{{ address.phone }}</Phone1>
+	<Phone2>{{ address.mobile }}</Phone2>
+	<Email_Address>{{ address.email }}</Email_Address>
+</Shipping_Address>
